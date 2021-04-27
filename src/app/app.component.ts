@@ -14,7 +14,8 @@ export class AppComponent implements AfterViewInit,OnInit {
   ngOnInit(): void {
     setTimeout(()=>{
       this.form.setDisabled('submit', true);
-      this.form.setValue('name', 'Todd Motto');      
+      this.form.setValue('name', 'Todd Motto'); 
+           
     })
   }
 
